@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculator</title>
+</head>
+<body>  
+    <form>
+         <input type="text" id="input-in" placeholder="0">
+         <table>
+             <tr>
+                <td id="clr" onclick="clearAll()" class="clear" colspan="3">c</td>
+                <td onclick="inputNumber('/')">/</td>                
+             </tr>
+             <tr>
+                 <td onclick="inputNumber(7)">7</td>
+                 <td onclick="inputNumber(8)">8</td>
+                 <td onclick="inputNumber(9)">9</td>
+                 <td onclick="inputNumber('*')">*</td>
+             </tr>
+             <tr>
+                <td onclick="inputNumber(4)">4</td>
+                <td onclick="inputNumber(5)">5</td>
+                <td onclick="inputNumber(6)">6</td>
+                <td onclick="inputNumber('+')">+</td>
+            </tr>
+            <tr>
+                <td onclick="inputNumber(1)">1</td>
+                <td onclick="inputNumber(2)">2</td>
+                <td onclick="inputNumber(3)">3</td>
+                <td onclick="inputNumber('-')">-</td>
+            </tr>
+            <tr>
+                <td onclick="inputNumber(0)">0</td>
+                <td onclick="inputNumber(00)">00</td>
+                <td onclick="inputNumber('.')">.</td>
+                <td onclick="answerValue()"class="equal">=</td>
+            </tr>
+         </table>
+    </form>
+<script src="index.js"></script>
+</body>
+</html>

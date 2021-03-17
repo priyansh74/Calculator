@@ -1,0 +1,46 @@
+@import "colours";
+body{
+    padding: 12% 40% 5% 40%;
+    background-color: $primary-color;
+    color:$white;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    form{
+       // margin: 0px auto; -> for block elements only.
+        input{
+            height: 3.6rem;
+            width: 92.5%;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.6rem;
+            font-weight: 400;
+            padding:3% ;
+        }
+        table{
+            text-align: center;
+            border-collapse: collapse;
+            cursor: pointer;
+            background-color: $secondary-color;
+            margin:0;
+            tr{
+               
+                td{
+                    width: 15rem;
+                    height: 1.8rem;
+                    padding: 5.5% 2%;
+                    border: 2px solid $secondary-color;
+                    border-color:$secondary-color $primary-color;                  
+                }
+                td:hover{
+                    opacity: 0.8;
+                }
+                .clear{
+                    background-color: $pink;
+                }
+                .equal{
+                    background-color: $blue;
+                }
+            }
+        }
+   }
+   
+}

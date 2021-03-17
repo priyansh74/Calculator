@@ -1,0 +1,45 @@
+body {
+  padding: 12% 40% 5% 40%;
+  background-color: #071b2b;
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+body form input {
+  height: 3.6rem;
+  width: 92.5%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 3%;
+}
+
+body form table {
+  text-align: center;
+  border-collapse: collapse;
+  cursor: pointer;
+  background-color: #0d2030;
+  margin: 0;
+}
+
+body form table tr td {
+  width: 15rem;
+  height: 1.8rem;
+  padding: 5.5% 2%;
+  border: 2px solid #0d2030;
+  border-color: #0d2030 #071b2b;
+}
+
+body form table tr td:hover {
+  opacity: 0.8;
+}
+
+body form table tr .clear {
+  background-color: #c02b7a;
+}
+
+body form table tr .equal {
+  background-color: #1f919e;
+}
+/*# sourceMappingURL=style.css.map */
