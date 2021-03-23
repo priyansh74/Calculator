@@ -7,7 +7,7 @@ function inputNumber(a)
    let x = document.getElementById("input-in").value;
    let y =  x[x.length - 1];
    
-   if(x.length == 1 && (y == '+' || y == '/' || y == '*' || y == '-'))
+   if(x.length == 1 && (y == '+' || y == '/' || y == '*'))
    {  
        clearAll();
        alert("Wrong Input, first input cannot be an operator.");
@@ -50,7 +50,7 @@ function answerValue()
     if((flag == 0) && (str[i] >= '0' && str[i] <= '9'))
     {  
       let getNumber = str.slice(start+end,str.length);
-      let temp = parseInt(getNumber);
+      let temp = parseFloat(getNumber);
       
       operand.push(temp);
       flag = 1;
